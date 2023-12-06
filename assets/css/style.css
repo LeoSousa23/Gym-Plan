@@ -55,7 +55,7 @@ a {
 .card-section {
   margin-inline: auto;
   margin-bottom: 6rem;
-  max-width: 32rem;
+  max-width: 42rem;
   height: 24rem;
   border-radius: .8rem;
   background-blend-mode: color;
@@ -94,7 +94,7 @@ a .card-section:hover {
   letter-spacing: .20rem;
 }
 
-#diet-list {
+#diet-list, #training-list {
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -103,7 +103,7 @@ a .card-section:hover {
 .accord {
   margin-inline: auto;
   width: 100%;
-  max-width: 32rem;
+  max-width: 42rem;
 }
 
 .accord h2 {
@@ -121,6 +121,11 @@ a .card-section:hover {
   line-height: 3rem;
   border-radius: 0 0 .6rem .6rem;
   box-shadow: -.3rem .7rem 1rem rgba(0,0,0,.4);
+}
+
+.accord-list.table {
+  width: 100%;
+  text-align: left;
 }
 
 @keyframes appear {
